@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Contact Us Page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+</head>
+
+<body>
+    <section>
+        <div class="container">
+            <div class="contactInfo">
+                <div>
+                    <h2>Get In Touch: </h2>
+                    <ul class="info">
+                        <li>
+                            <span><img src="img/location.png" alt=""></span>
+                            <span>
+                                Pushpak City Complex, First Floor<br>
+                                Mahemdabad Road, Nr.Hathijan Circle<br>
+                                Ahmedabad, Hathijan - 382445
+                            </span>
+                        </li>
+                        <li>
+                            <span><img src="img/mail.png" alt=""></span>
+                            <span>thegoldenleaf0101@gmail.com</span>
+                        </li>
+                        <li>
+                            <span><img src="img/call.png" alt=""></span>
+                            <span>+919898256061</span>
+                        </li>
+                    </ul>
+                </div>
+                <ul class="sci">
+                    <li><a href="facebook_link"><img src="img/1.png" alt=""></a></li>
+                    <li><a href="youtube_link"><img src="img/2.png" alt=""></a></li>
+                    <li><a href="instagram_link"><img src="img/3.png" alt=""></a></li>
+                </ul>
+            </div>
+            <div class="contactForm">
+                <form method="post" action="Form1.php">
+                    <h2>For Online Inquiries</h2>
+                    <h3>For any inquiries fill the form below or call.</h3>
+                    <div class="formBox">
+                        <div class="inputBox w50">
+                            <input type="text" name="name" id="name" required>
+                            <span>Your Name</span>
+                        </div>
+                        <div class="inputBox w50">
+                            <input type="text" name="functiontype" id="functiontype" required>
+                            <span>Function Type (eg. Wedding)</span>
+                        </div>
+                        <div class="inputBox w50">
+                            <input type="email" id="email" name="email" required>
+                            <span>Email ID</span>
+                        </div>
+                        <div class="inputBox w50">
+                            <input type="tel" id="phone" name="phone" pattern="[1-9]{9}" required>
+                            <span>Mobile Number</span>
+                        </div>
+                        <div class="inputBox w50">
+                            <label for="functiondate">Function Date:</label>
+                            <input type="date" id="functiondate" name="functiondate">
+                        </div>
+                        <div class="inputBox w30">
+                            <label for="functionplace">Choose Function Place:</label>
+                            <select id="functionplace" name="functionplace">
+                                <option value="restaurant">Restaurant</option>
+                                <option value="banquet" selected>Banquet</option>
+                                <option value="terrace">Terrace Garden</option>
+                            </select>
+                        </div>
+                        <div class="inputBox w30">
+                            <label for="timing">Choose Timing:</label>
+                            <select id="timing" name="timing">
+                                <option value="morning">Morning Session (10:30AM to 02:30)</option>
+                                <option value="evening">Evening Session (6:30AM to 10:30)</option>
+                                <option value="fullday">Full Day Session (10:30AM to 10:30)</option>
+                            </select>
+                        </div>
+                        <div class="inputBox w100">
+                            <input type="submit" value="Submit">
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
